@@ -25,3 +25,17 @@ console.log(myArray);
 console.log(removedFromArray);
 myArray.unshift("Edward");
 console.log(myArray);
+function ourReusableFunc() {console.log(myArray);}
+ourReusableFunc();
+ourReusableFunc();
+ourReusableFunc();
+ourReusableFunc();
+function ourFunctionWithArgs(a,b) {console.log(a - b);}
+ourFunctionWithArgs(8, 4);
+console.log(ourFunctionWithArgs);
+function myLocalScope () { 
+    var myVar = 9;
+console.log(myVar);
+}
+myLocalScope();
+console.log(myVar);
