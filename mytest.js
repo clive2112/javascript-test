@@ -12,7 +12,16 @@ console.log(mySur);
 var anAdjective = " Trainee Coder!"
 mySur += anAdjective;
 console.log(mySur);
-var myArray = ["Clive", 52];
+var myArray = ["Clive", "Trainee", 52];
 console.log(myArray);
-var myData = myArray[1];
+var myData = myArray[2];
 console.log(myData);
+myArray[1] = "Male";
+console.log(myArray);
+myArray.push(["Beginner"])
+console.log(myArray);
+var removedFromArray = myArray.shift();
+console.log(myArray);
+console.log(removedFromArray);
+myArray.unshift("Edward");
+console.log(myArray);
