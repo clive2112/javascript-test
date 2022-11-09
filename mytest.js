@@ -49,3 +49,12 @@ function trueOrFalse(wasThatTrue) {
 }
 console.log(trueOrFalse(false));
 
+function lessOrEqual(val) {
+    if (val <=9) {
+        return "Smaller or equal to 9";}
+        return "greater than 9";
+    
+}
+console.log(lessOrEqual(6));
+console.log(lessOrEqual(10));
+console.log(lessOrEqual(9));
