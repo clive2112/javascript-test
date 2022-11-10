@@ -181,3 +181,17 @@ console.log(cc(4))
 
 cc('K'); cc('A'); cc('Q'); cc('J');
 console.log(cc(0))
+
+var testObj = {
+    "hat": "baseball cap",
+    "shirt": "cotton",
+    "shoes": "Dr Martens"
+};
+
+var hatValue = testObj.hat;
+var shoesValue = testObj.shoes;
+var shirtValue = testObj.shirt;
+
+console.log(testObj.hat)
+console.log(testObj.shirt)
+console.log(testObj.shoes)
