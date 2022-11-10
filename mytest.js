@@ -195,3 +195,20 @@ var shirtValue = testObj.shirt;
 console.log(testObj.hat)
 console.log(testObj.shirt)
 console.log(testObj.shoes)
+
+
+function phoneLookup(val) {
+    var result = "";
+
+    var lookup = {
+        "alpha": "Adams",
+        "bravo": "Belfast",
+        "charlie": "Cork",
+        "delta": "Dublin",
+    }
+    result = lookup[val];
+
+    return result;
+}
+console.log(phoneLookup("delta"))
+console.log(phoneLookup("bravo"))
