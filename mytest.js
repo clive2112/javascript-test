@@ -99,6 +99,9 @@ function caseInSwitch(val) {
         case 5:
             answer = "assbag";
             break;    
+        default:
+            answer = "WTF"
+            break;
     }
     return answer;
 }
@@ -107,3 +110,43 @@ console.log(caseInSwitch(3))
 console.log(caseInSwitch(2))
 console.log(caseInSwitch(5))
 console.log(caseInSwitch(1))
+console.log(caseInSwitch(4))
+console.log(caseInSwitch(8))
+
+function caseInSwitch(val) {
+    var answer = "";
+    switch(val) {
+        case 1:
+            
+        case 2:
+              
+        case 3:
+            answer = "gamma";
+            break;
+        case 4:
+            
+        case 5:
+
+        case 6:
+            answer = "assbag";
+            break;    
+        default:
+            answer = "WTF"
+            break;
+    }
+    return answer;
+}
+
+console.log(caseInSwitch(3))
+console.log(caseInSwitch(2))
+console.log(caseInSwitch(5))
+console.log(caseInSwitch(1))
+console.log(caseInSwitch(4))
+console.log(caseInSwitch(8))
+
+function isLess (a, b) {
+    return a < b;
+}
+
+console.log(isLess(2, 4));
+console.log(isLess(8, 4));
